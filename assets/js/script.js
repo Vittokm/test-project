@@ -8,14 +8,15 @@ window.onload = function () {
 };
 
 function muda() {
-    let txt = document.querySelector("#txt");
-    let newtxt = "Now we changed the text in the page via javascript.";
-    let oritxt = "Hello! This is my test page.";
 
-    if (txt.innerHTML === oritxt) {
-        txt.innerHTML = newtxt;
+    let txt = document.querySelector("#txt");
+    let newTxt = "Now we changed the text via javascript.";
+    let oriTxt = "Hello! This is just a test page.";
+
+    if (txt.innerHTML === oriTxt) {
+        txt.innerHTML = newTxt;
     } else {
-        txt.innerHTML = oritxt;
+        txt.innerHTML = oriTxt;
     }
     
 }
